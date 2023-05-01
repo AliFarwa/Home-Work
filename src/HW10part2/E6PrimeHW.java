@@ -12,7 +12,7 @@ public class E6PrimeHW {
 
         for (int i = 1; i <=number ; i++) {
             if (number % i == 0) {
-                count++;
+               count++;
             }
         }
             if (count==2){// because prime number are only divided by 1 or themselves.
