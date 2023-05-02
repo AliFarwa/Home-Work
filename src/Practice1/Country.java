@@ -6,6 +6,7 @@ public class Country {
     String country;
     String capital;
     int populaionSize;
+
     public static void main(String[] args) {
 
         Country obj=new Country();
