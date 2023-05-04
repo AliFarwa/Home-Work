@@ -20,6 +20,9 @@ public class Country {
        obj1.capital="Astana";
        obj1.populaionSize=18500000;
         System.out.println("The capital of " +obj1.country+ " is "+  obj1.capital+ " and population is " +obj1.populaionSize);
+        System.out.println();
+
+
     }
 
     }

@@ -12,6 +12,6 @@ public class Hw2DArrays {
             };
         System.out.println(matrix[0][0]);
         System.out.println(matrix[0][1]);
-
+        ;
 }
 }

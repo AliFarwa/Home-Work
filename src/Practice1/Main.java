@@ -2,6 +2,8 @@ package Practice1;
 
 class Main {
 
+    public static String ss;
+
     String censorletter(String word, char character) {
         word.replaceAll("e", "*");
         word.replaceAll("t", "*");
