@@ -12,10 +12,9 @@ public class calculateArea {
 }
 class calculateAreaTester {
     public static void main(String[] args) {
-        calculateArea.Area(10,10);
+        calculateArea obj=new calculateArea();
+       calculateArea.Area(10.1,10.2);
         calculateArea.Area(5,5);
-
-
 
     }
 }

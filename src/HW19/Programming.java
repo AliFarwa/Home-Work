@@ -8,13 +8,13 @@ public class Programming {
         System.out.println( "I love programming languages");
     }
     static void programming(String c){
-        System.out.println("I love Java");
+        System.out.println("I Love " + c);
     }
 
     public static void main(String[] args) {
         Programming obj=new Programming();
         progamming();
-        programming("I love Java");
+        programming("Java");
 
     }
 }

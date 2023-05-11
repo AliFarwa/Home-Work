@@ -7,9 +7,11 @@ public class Multiplication {
         System.out.println(a*b);
     }
     private void multiply(int a, double b){
+
         System.out.println(a*b);
     }
     private void multiply(long a, double b){
+
         System.out.println(a*b);
     }
 
