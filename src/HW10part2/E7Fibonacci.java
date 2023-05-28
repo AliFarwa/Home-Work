@@ -15,6 +15,8 @@ public class E7Fibonacci {
             System.out.print(a+" ");
             a = b;
             b = c;
+
+
         }
         }
     }

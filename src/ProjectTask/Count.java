@@ -7,9 +7,8 @@ public class Count {
 //punctuation. For example, the input "Hello, world!" should return 2.
 
         String word = "Hello, world!";
-        int count=word.split("\\s").length;// will count whitespaces
-            System.out.println(count);
-        }
+        int count = word.split("\\s").length;// will count whitespaces
+        System.out.println(count);
+    }
 }
-
 
