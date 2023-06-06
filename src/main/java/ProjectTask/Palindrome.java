@@ -13,14 +13,12 @@ public class Palindrome {
         Scanner scan=new Scanner(System.in);
         System.out.println("Please write the word:");
         String str= scan.next();
-        String newString="";
-
-        String palindrome=str;
+        String reverse="";
 
         for (int i =str.length()-1; i >=0 ; i--) {
-            newString=newString+str.charAt(i);
+            reverse=reverse+str.charAt(i);
         }
-        if(str.equals(newString)){
+        if(str.equals(reverse)){
             System.out.println("Word is Palindrome");
         }else {
             System.out.println("Word is not Palindrome");
